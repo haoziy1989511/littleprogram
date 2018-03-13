@@ -5,14 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    hasUserInfo:null,
+    userInfo:{name:'laomi',id:'123445'},
+    motto:'motto',
+    hasUserInfo:false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    // alert(1);
   },
 
   /**

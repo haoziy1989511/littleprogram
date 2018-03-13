@@ -1,25 +1,29 @@
 {
   "tabBar": {
+    "color": "#DDDDDD",
+    "selectedColor": "#1afa29",
+    "backgroundColor": "#EEEEEE80",
     "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "image/mineNormal@3x.png",
-      "selectedIconPath": "image/managementNormal@3x.png"
+      "pagePath": "pages/wechat/wechat",
+      "text": "微信",
+      "iconPath": "image/weChatNormal.png",
+      "selectedIconPath": "image/weChatSelected.png"
     },{
-      "pagePath": "pages/device/device",
-      "text": "评价",
-      "iconPath": "image/mineNormal@3x.png",
-      "selectedIconPath": "image/managementNormal@3x.png"
+      "pagePath": "pages/address/address",
+      "text": "通讯录",
+      "iconPath": "image/addressNormal.png",
+      "selectedIconPath": "image/addressSlected.png"
+    },
+    {
+      "pagePath": "pages/found/found",
+      "text": "发现",
+      "iconPath": "image/foundNormal.png",
+      "selectedIconPath": "image/foundSelected.png"
     },{
-      "pagePath": "pages/profile/profile",
-      "text": "设备",
-      "iconPath": "image/mineNormal@3x.png",
-      "selectedIconPath": "image/managementNormal@3x.png"
-    },{
-      "pagePath": "pages/logs/logs",
-      "text": "我的",
-      "iconPath": "image/mineNormal@3x.png",
-      "selectedIconPath": "image/managementNormal@3x.png"
+      "pagePath": "pages/my/my",
+      "text": "我",
+      "iconPath": "image/myNormal.png",
+      "selectedIconPath": "image/mySelected.png"
     }]
   },
   "window": {
@@ -28,10 +32,10 @@
     "navigationBarTitleText": "久熵",
     "navigationBarTextStyle": "black"
   },
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/profile/profile",
-    "pages/device/device"
-  ]
+    "pages": [
+      "pages/wechat/wechat",
+      "pages/address/address",
+      "pages/found/found",
+      "pages/my/my"
+    ]
 }

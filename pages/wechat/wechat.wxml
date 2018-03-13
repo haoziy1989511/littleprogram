@@ -1,0 +1,18 @@
+<!--wechat.wxml-->
+<view class='container'>
+  <view wx:for="{{data}}" class="list">
+    <view class="listitem">
+      <image mode='aspectFit' src="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/4e/92/79/4e927973-b4f0-1977-d196-5745d1a456b8/mzl.mguodkwl.png/1200x630bb.jpg" class='image'>
+      </image>
+      <view class='title'>
+
+         {{item+"gdsagsdagdsgdsg"}}       
+
+
+        {{item+"gdsagsdagdsgdsg"}}
+
+      </view>
+      {{date}}
+    </view>
+  </view>
+</view>

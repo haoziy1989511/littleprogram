@@ -7,6 +7,6 @@ App({
     
   },
   globalData:{
-    
+    user:'laomiBBBB'
   }
 })

@@ -1,13 +1,25 @@
 // pages/device/device.js
+import * as  A
+ from '../../utils/util.js'
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    data: [1, 2, 3, 4, 5, 6],
+    date: A.formatTime(new Date()),
   },
 
+  getData:function()
+  {
+    let arr = [1,2,3,4,5,6];
+    for(let i=0;i<100;i++)
+    {
+      arr.push(i);
+    }
+    return arr;
+  },
   /**
    * 生命周期函数--监听页面加载
    */

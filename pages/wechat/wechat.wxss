@@ -1,0 +1,29 @@
+/* pages/device/device.wxss */
+
+.name {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+.listitem {
+  display: flex;
+  height: 45px;
+  flex-direction: row;
+  border-bottom:1px solid #ccc;
+  justify-content:flex-start;
+  align-items: center;
+}
+.image {
+  height: 45px;
+  width:45px;
+}
+.title {
+  display: flex;
+  padding-left: 2px;
+  justify-content:center;
+  flex-direction:column;
+}
+.list {
+  /* display: flex;
+  flex:1; */
+}
